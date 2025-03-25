@@ -4,7 +4,7 @@ function numberStringSplitter(input) {
   let string = input.match(/[a-zA-Z]+/g)[0];
 
   return [number[0], string];
-)
+}
 
 function checkDiv(possibleFraction){
   //this is a helper function
